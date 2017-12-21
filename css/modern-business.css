@@ -1,0 +1,152 @@
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+
+.navbar{
+	margin-bottom: 0;
+	background-color: #222222;
+	z-index: 9999;
+	border: 0;
+	font-size: 12px !important;
+	line-height: 1.42857143 !important;
+	letter-spacing: 4px;
+	border-radius: 0;
+}
+
+.navbar li a, .navbar, .navbar-brand{
+	color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a{
+	color: #222222 !important;
+	background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.dropdown-menu li a:hover, .dropdown-menu li.active a{
+	color: #fff !important;
+	background-color: #222222 !important;
+}
+
+.dropdown .dropdown-menu{
+	border-color: transparent;
+	background-color: #fff !important;
+}
+.dropdown-menu li a{
+	color: #222222 !important;
+}
+
+
+header.carousel {
+    height: 100%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* circle picture*/
+.img-center {
+    margin: 0 auto;
+}
+
+/* 404 Page Styles */
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+
+
+/* ----ARTICLE---- */
+/* ----ARTICLE---- */
+.article .page-header{
+	margin-top: 0;
+}
+
+.panel-body{
+	padding-top: 0;
+}
+
+.featureImg{
+	margin-bottom: 15px;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+#warn
+{
+	color:red;
+	text-align:center;
+}
